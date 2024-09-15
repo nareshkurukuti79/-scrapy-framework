@@ -1,0 +1,131 @@
+2024-05-28 00:33:12 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: chocolatescraper)
+2024-05-28 00:33:12 [scrapy.utils.log] INFO: Versions: lxml 5.2.2.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.9.1, w3lib 2.1.2, Twisted 24.3.0, Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.7, Platform Windows-11-10.0.22631-SP0
+2024-05-28 00:33:12 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-05-28 00:33:12 [asyncio] DEBUG: Using selector: SelectSelector
+2024-05-28 00:33:12 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-05-28 00:33:12 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-05-28 00:33:12 [scrapy.extensions.telnet] INFO: Telnet Password: 1e2ddde79e005024
+2024-05-28 00:33:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-05-28 00:33:12 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'chocolatescraper',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs/scrapy_log_20240528_003311.log',
+ 'NEWSPIDER_MODULE': 'chocolatescraper.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['chocolatescraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-05-28 00:33:12 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Android
+2024-05-28 00:33:12 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:12 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:12 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV13, Brand: Sony, Model: BDV13
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Nintendo DSi, Brand: Nintendo, Model: DSi
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF F90M, Brand: LYF, Model: F90M
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV14, Brand: Sony, Model: BDV14
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LG Web0S SmartTV, Brand: LG, Model: Web0S SmartTV
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV11, Brand: Sony, Model: BDV11
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Nintendo DSi, Brand: Nintendo, Model: DSi
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF LF-2403N, Brand: LYF, Model: LF-2403N
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF F90M, Brand: LYF, Model: F90M
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Applebot
+2024-05-28 00:33:13 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Applebot
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: SMTBot
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: WebKit Nightly
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Robot
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-05-28 00:33:14 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Zune
+2024-05-28 00:33:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy_user_agents.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-05-28 00:33:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-05-28 00:33:14 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-05-28 00:33:14 [scrapy.core.engine] INFO: Spider opened
+2024-05-28 00:33:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-05-28 00:33:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-05-28 00:33:14 [newwalmart] INFO: Starting to scrape sitemap: https://www.walmart.com/sitemap_category.xml
+2024-05-28 00:33:14 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+2024-05-28 00:33:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://proxy.scrapeops.io/v1/?api_key=021f52e4-c875-4349-a468-57feccd34b8c&url=https%3A%2F%2Fwww.walmart.com%2Fsitemap_category.xml> (referer: None)
+2024-05-28 00:33:18 [newwalmart] INFO: Parsing sitemap: https://proxy.scrapeops.io/v1/?api_key=021f52e4-c875-4349-a468-57feccd34b8c&url=https%3A%2F%2Fwww.walmart.com%2Fsitemap_category.xml
+2024-05-28 00:33:18 [newwalmart] INFO: Found 1 categories in sitemap
+2024-05-28 00:33:18 [newwalmart] DEBUG: Scraping category page: https://www.walmart.com/cp/additional-garage-equipment/4066622
+2024-05-28 00:33:18 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36
+2024-05-28 00:33:19 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.walmart.com/browse/auto-tires/additional-garage-equipment/91083_5941050_4066622> from <GET https://www.walmart.com/cp/additional-garage-equipment/4066622>
+2024-05-28 00:33:19 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+2024-05-28 00:33:19 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (307) to <GET https://www.walmart.com/blocked?url=L2Jyb3dzZS9hdXRvLXRpcmVzL2FkZGl0aW9uYWwtZ2FyYWdlLWVxdWlwbWVudC85MTA4M181OTQxMDUwXzQwNjY2MjI=&uuid=ca3fd1ef-1c5b-11ef-ac93-00448ba4df67&vid=&g=b> from <GET https://www.walmart.com/browse/auto-tires/additional-garage-equipment/91083_5941050_4066622>
+2024-05-28 00:33:19 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+2024-05-28 00:33:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.walmart.com/blocked?url=L2Jyb3dzZS9hdXRvLXRpcmVzL2FkZGl0aW9uYWwtZ2FyYWdlLWVxdWlwbWVudC85MTA4M181OTQxMDUwXzQwNjY2MjI=&uuid=ca3fd1ef-1c5b-11ef-ac93-00448ba4df67&vid=&g=b> (referer: https://proxy.scrapeops.io/v1/?api_key=021f52e4-c875-4349-a468-57feccd34b8c&url=https%3A%2F%2Fwww.walmart.com%2Fsitemap_category.xml)
+2024-05-28 00:33:20 [newwalmart] INFO: Scraping category: https://www.walmart.com/cp/additional-garage-equipment/4066622, page: 1
+2024-05-28 00:33:20 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-05-28 00:33:20 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: data/newwalmart_2024-05-27T19-03-14+00-00.csv
+2024-05-28 00:33:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3554,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 170741,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/307': 1,
+ 'elapsed_time_seconds': 5.262684,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 5, 27, 19, 3, 20, 54732, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1133850,
+ 'httpcompression/response_count': 2,
+ 'log_count/DEBUG': 12,
+ 'log_count/INFO': 15,
+ 'log_count/WARNING': 45,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2024, 5, 27, 19, 3, 14, 792048, tzinfo=datetime.timezone.utc)}
+2024-05-28 00:33:20 [scrapy.core.engine] INFO: Spider closed (finished)
